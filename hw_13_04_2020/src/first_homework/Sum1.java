@@ -1,6 +1,7 @@
 package first_homework;
 
 public class Sum1 {
+        //Методы должны начинаться с маленькой буквы 
     public static int Metod(int a, int b) {//Calculating the sum of long integers
         int sum01 = a + b; // лишняя переменная sum01, можно сразу return a + b;
         return sum01;
@@ -13,7 +14,7 @@ public class Sum1 {
 
     public static void main(String[] args) {
         System.out.println("sum2=" + Metod(2, 2));
-        int a = Metod(2, 2);
+        int a = Metod(2, 2); //int a - некорректное имя перевенной, не пиши так. Ее можно назвать result, например
         Test(a);
     }
 
