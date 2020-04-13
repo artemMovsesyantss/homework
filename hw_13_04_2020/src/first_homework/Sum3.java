@@ -1,13 +1,13 @@
 package first_homework;
 
 public class Sum3 {
-       public static double Metod(double a, double b) {//Calculating the sum of long integers
+    public static double Metod(double a, double b) {//Calculating the sum of long integers
         double sum03 = a + b;
         return sum03;
     }
 
     public static void Test(double a) {
-        if (a ==5)System.out.println("test completed successfully");//testing sum4
+        if (a == 5) System.out.println("test completed successfully");//testing sum4
         else System.out.println("test failed");
     }
 

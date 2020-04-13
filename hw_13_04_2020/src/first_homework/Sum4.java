@@ -7,7 +7,7 @@ public class Sum4 {
     }
 
     public static void Test(long a) {
-        if (a ==2200000000L)System.out.println("test completed successfully");//testing sum4
+        if (a == 2200000000L) System.out.println("test completed successfully");//testing sum4
         else System.out.println("test failed");
     }
 
